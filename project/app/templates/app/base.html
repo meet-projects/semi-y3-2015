@@ -1,16 +1,27 @@
 {% load staticfiles %}
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href={% static 'app/css/main.css' %}>
+	<link rel="stylesheet" type="text/css" href='{{STATIC_URL}}app/css/main.css'>
+	<link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
 	<title>
 		{% block title %}
 		{% endblock %}
 	</title>
 </head>
 <body>
-	<div id="navbar">
-		<h1>This is the base.html</h1>
-	</div>
+<h2 class="offscreen">W3C Web Resources</h2>
+<div id="hmenu">
+<ul>
+  <li><a href="http://www.w3.org/Consortium/activities">Home</a></li>
+  <li><a href="http://www.w3.org/TR/">Sign Up</a></li>
+  <li><a href="http://www.w3.org/Consortium/siteindex">Log In</a></li>
+  <li><a href="http://www.w3.org/Consortium/new-to-w3c">See Events</a></li>
+  <li><a href="http://www.w3.org/Consortium/">About Us</a></li>
+  <li><a href="http://www.w3.org/Consortium/join">Contact Us</a></li>
+</div> 
+
+	<img src="{{STATIC_URL}}app/imgs/logo.jpg" alt="My image"/>
 	{% block body %}
 	{% endblock %}
 </body>
