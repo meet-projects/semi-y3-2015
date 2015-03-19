@@ -1,0 +1,21 @@
+{% extends "app/base.html" %}
+
+{%block title %} Index page {% endblock %}
+
+{% block body %}
+<div class="greenBOX">
+<center>
+<p style='font-size:xx-large;color:blue;'> Sign Up </p>
+<table>
+<tr><td> School Name : </td> <td><input type='text' id='sn' /></td></tr>
+<tr><td> Location : </td> <td><input type='text' id='l' /></td></tr>
+<tr><td> Number of Participants : </td> <td><input type='text' id='np' /></td></tr>
+<tr><td> Number of Classes : </td> <td><input type='text' id='nc' /></td></tr>
+<tr><td> Phone Number : </td> <td><input type='text' id='pn' /></td></tr>
+<tr><td> Principal's Name : </td> <td><input type='text' id='pname' /></td></tr>
+<tr><td> Why do we want to join SEMI : </td><td><input type='text'></td></tr>
+</table>
+<button type="button" id='signup'>Sign Up</button> 
+</div>
+{% endblock %}
+
