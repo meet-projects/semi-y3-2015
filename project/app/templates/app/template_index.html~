@@ -93,7 +93,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Menu</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -105,17 +105,17 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="{{STATIC_URL}}app/imgs/portfolio/cake.png" class="img-responsive" alt="" >
+                        <img src="{{STATIC_URL}}app/imgs/portfolio/Home.png" class="img-responsive" alt="" >
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>hghg
+                                <i class="fa fa-sign-in fa-3x"></i>
                             </div>
                         </div>
- <img src="{{STATIC_URL}}app/imgs/button.png" class="img-responsive" alt="" style='width:100%;'>
+ <img src="{{STATIC_URL}}app/imgs/SignIn.png" class="img-responsive" alt="" style='width:100%;'>
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -125,7 +125,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
               `              </div>
                         </div>
-                        <img src="{{STATIC_URL}}app/imgs/portfolio/circus.png" class="img-responsive" alt="">
+                        <img src="{{STATIC_URL}}app/imgs/portfolio/LogIn.png" class="img-responsive" alt="" style='width:100%;'>
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -135,7 +135,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="{{STATIC_URL}}app/imgs/portfolio/game.png" class="img-responsive" alt="">
+                        <img src="{{STATIC_URL}}app/imgs/SeeEvent.png" class="img-responsive" alt="" style='width:100%;'>
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -145,7 +145,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="{{STATIC_URL}}app/imgs/portfolio/safe.png" class="img-responsive" alt="">
+                        <img src="{{STATIC_URL}}app/imgs/AboutUs.png" class="img-responsive" alt="" style='width:100%;'>
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -155,7 +155,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="{{STATIC_URL}}app/imgs/portfolio/submarine.png" class="img-responsive" alt="">
+                        <img src="{{STATIC_URL}}app/imgs/ContactUs.png" class="img-responsive" alt="" style='width:100%;'>
                     </a>
                 </div>
             </div>
